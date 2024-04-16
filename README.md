@@ -1,6 +1,6 @@
 # Funciones de Array en JavaScript
 
-Este es un proyecto simple que muestra el uso de algunas funciones de array en JavaScript, como `map`, `filter` y `find`.
+Este es un proyecto simple que resuelve ejercicios que muestra el uso de algunas funciones de array en JavaScript, como `map`, `filter` y `find`.
 
 ## Descripción
 
@@ -22,4 +22,4 @@ El proyecto consta de un archivo HTML (`index.html`), un archivo CSS (`styles.cs
 
 ## Ejecución
 
-Para ejecutar el proyecto, simplemente abre el archivo `index.html` en tu navegador web y con inspeccionar la página, podrás abrir la consola para ver los resultados.
+Para ejecutar el proyecto, simplemente se abre el archivo `index.html` en el navegador y con inspeccionar la página, se abre la consola para ver los resultados.
