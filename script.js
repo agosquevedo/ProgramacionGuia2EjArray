@@ -15,10 +15,7 @@ function findBookByAuthor(books, author) {
 
 // Función para encontrar la primera persona de 25 años en un array de objetos de personas
 function findPersonByAge(persons) {
-    return persons
-        .map(person => person.nombre.toUpperCase())
-        .filter(person => person.edad > 18)
-        .find(person => person.edad === 25);
+    return persons.find(person => person.edad === 25);
 }
 
 // Función para calcular el precio final de cada producto, filtrar los que tienen precio final mayor que 50,
@@ -37,7 +34,7 @@ function findProductsWithDiscount(products) {
 const numeros = [1, 2, 3, 4, 5];
 console.log(duplicateNumbers(numeros));
 
-const numerosPares = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const numerosPares = [1, 2, 3, 4, 5];
 console.log(filterEvenNumbers(numerosPares));
 
 const libros = [
