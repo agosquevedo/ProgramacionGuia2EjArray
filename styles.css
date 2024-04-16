@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.result-section {
+    margin-top: 30px;
+}
+
+.result-section h2 {
+    color: #ff69b4;
+}
+
+.result {
+    background-color: #ffe6f2;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 10px;
+    opacity: 0; /* Inicialmente oculto */
+    animation: fadeIn 0.5s ease forwards; /* Animación de desvanecimiento */
+}
+
+.result p {
+    margin: 0;
+    color: #333;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px); /* Desplazamiento hacia arriba */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

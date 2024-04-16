@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guía de Ejercicios 2 - Funciones de Array en JS</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-5 mb-4 text-center">Guía de Ejercicios 2 - Funciones de Array</h1>
+        <section id="duplicados" class="result-section">
+            <h2>Duplicar Números</h2>
+            <div id="output-duplicados" class="result">
+                <p>Se ejecutó la función para duplicar cada número en el array utilizando el método map(). Se espera un nuevo array con los números duplicados.</p>
+                <div class="visual-example">
+                    <p>Ejemplo:</p>
+                    <p>Array original: [1, 2, 3, 4, 5]</p>
+                    <p>Array duplicado: [2, 4, 6, 8, 10]</p>
+                </div>
+            </div>
+        </section>
+        <section id="pares" class="result-section">
+            <h2>Números Pares</h2>
+            <div id="output-pares" class="result">
+                <p>Se ejecutó la función para filtrar solo los números pares en el array utilizando el método filter(). Se espera un nuevo array con los números pares.</p>
+                <div class="visual-example">
+                    <p>Ejemplo:</p>
+                    <p>Array original: [1, 2, 3, 4, 5]</p>
+                    <p>Números pares: [2, 4]</p>
+                </div>
+            </div>
+        </section>
+        <section id="libro" class="result-section">
+            <h2>Libro por Autor</h2>
+            <div id="output-libro" class="result">
+                <p>Se ejecutó la función para encontrar un libro con un autor específico utilizando el método find(). Se espera un objeto representando el libro encontrado.</p>
+                <div class="visual-example">
+                    <p>Ejemplo:</p>
+                    <p>Libros:</p>
+                    <p>- Título: "1984", Autor: "George Orwell"</p>
+                    <p>- Título: "Cien años de soledad", Autor: "Gabriel García Márquez"</p>
+                    <p>Libro encontrado: Título: "1984", Autor: "George Orwell"</p>
+                </div>
+            </div>
+        </section>
+        <section id="persona" class="result-section">
+            <h2>Persona por Edad</h2>
+            <div id="output-persona" class="result">
+                <p>Se ejecutó la función para generar un nuevo array con los nombres de las personas en mayúsculas, filtrar solo las personas mayores de 18 años y encontrar la primera persona que tenga exactamente 25 años utilizando los métodos map(), filter() y find() respectivamente. Se espera un objeto representando la persona encontrada.</p>
+                <div class="visual-example">
+                    <p>Ejemplo:</p>
+                    <p>Personas:</p>
+                    <p>- Nombre: "Juan", Edad: 25</p>
+                    <p>- Nombre: "María", Edad: 30</p>
+                    <p>Persona encontrada: Nombre: "Juan", Edad: 25</p>
+                </div>
+            </div>
+        </section>
+        <section id="productos" class="result-section">
+            <h2>Productos con Descuento</h2>
+            <div id="output-productos" class="result">
+                <p>Se ejecutó la función para calcular el precio final de cada producto después de aplicar el descuento, filtrar solo los productos con un precio final mayor que 50 y encontrar el primer producto que tenga un descuento del 20% utilizando los métodos map(), filter() y find() respectivamente. Se espera un objeto representando el producto encontrado.</p>
+                <div class="visual-example">
+                    <p>Ejemplo:</p>
+                    <p>Productos:</p>
+                    <p>- Producto: Camisa, Precio: $30, Descuento: 10%</p>
+                    <p>- Producto: Pantalón, Precio: $50, Descuento: 15%</p>
+                    <p>Producto encontrado: Producto: Zapatos, Precio: $80, Descuento: 20%</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
