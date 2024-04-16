@@ -22,10 +22,4 @@ El proyecto consta de un archivo HTML (`index.html`), un archivo CSS (`styles.cs
 
 ## Ejecución
 
-Para ejecutar el proyecto, simplemente abre el archivo `index.html` en tu navegador web.
-
-## Contribución
-
-Siéntete libre de contribuir al proyecto. Puedes abrir problemas para informar sobre errores o sugerir nuevas funciones de array para implementar.
-
-¡Gracias por tu interés en este proyecto!
+Para ejecutar el proyecto, simplemente abre el archivo `index.html` en tu navegador web y con inspeccionar la página, podrás abrir la consola para ver los resultados.
